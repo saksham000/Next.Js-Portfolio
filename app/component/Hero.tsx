@@ -48,7 +48,7 @@ const Hero = () => {
                     <p className="text-center
                     md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl
                     " >
-                        Hi, I'm Saksham, a Full Stack Developer with Spring Boot.
+                        Hi, I&apos;m Saksham, a Full Stack Developer with Spring Boot.
 
                     </p>
                     <a href="#about">

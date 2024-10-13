@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function MagicButton({
-    title, icon, position, handelClick, otherClasses
+    title, icon, position, otherClasses
 }: {
     title: string;
     icon: React.ReactNode,
