@@ -1,2 +1,5 @@
 https://github.com/adrianhajdin/portfolio
 https://github.com/adrianhajdin/portfolio/blob/main/README.md
+
+
+SENTRY_AUTH_TOKEN=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
