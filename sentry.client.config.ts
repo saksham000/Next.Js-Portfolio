@@ -14,7 +14,6 @@ Sentry.init({
       // Additional SDK configuration goes in here, for example:
       colorScheme: "dark",
     }),
-
   ],
 
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
@@ -30,4 +29,12 @@ Sentry.init({
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
+
+  beforeSend(event, hint) {
+    // Explicitly type hint and hint.originalException to avoid TypeScript errors
+    if (hint && hint.originalException && (hint.originalException as any).name === 'BlockedByClient') {
+      return null; // Prevent sending this error to Sentry
+    }
+    return event;
+  }
 });
