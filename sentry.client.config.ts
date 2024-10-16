@@ -5,7 +5,7 @@
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
-  dsn: "https://6cfa975a0ae1061b97c93fc62aeda275@o4508128956448768.ingest.us.sentry.io/4508128965230592",
+  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN || "https://6cfa975a0ae1061b97c93fc62aeda275@o4508128956448768.ingest.us.sentry.io/4508128965230592", // Use env variable
 
   // Add optional integrations for additional features
   integrations: [
@@ -17,22 +17,20 @@ Sentry.init({
   ],
 
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
-  tracesSampleRate: 1,
+  tracesSampleRate: process.env.NODE_ENV === 'production' ? 0.2 : 1.0, // Lower sample rate in production
 
   // Define how likely Replay events are sampled.
-  // This sets the sample rate to be 10%. You may want this to be 100% while
-  // in development and sample at a lower rate in production
-  replaysSessionSampleRate: 0.1,
+  replaysSessionSampleRate: process.env.NODE_ENV === 'production' ? 0.05 : 0.1, // Adjust sample rate in production
 
   // Define how likely Replay events are sampled when an error occurs.
-  replaysOnErrorSampleRate: 1.0,
+  replaysOnErrorSampleRate: process.env.NODE_ENV === 'production' ? 0.5 : 1.0,
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
-  debug: false,
+  debug: process.env.NODE_ENV !== 'production', // Debug mode only in development
 
   beforeSend(event, hint) {
     // Explicitly type hint and hint.originalException to avoid TypeScript errors
-    if (hint && hint.originalException && (hint.originalException as any).name === 'BlockedByClient') {
+    if (hint?.originalException && (hint.originalException as any).name === 'BlockedByClient') {
       return null; // Prevent sending this error to Sentry
     }
     return event;
