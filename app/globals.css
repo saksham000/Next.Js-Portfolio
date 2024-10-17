@@ -68,7 +68,7 @@
 
 @layer base {
   * {
-    user-select: none;
+    /* user-select: none; */
     @apply border-border !scroll-smooth;
   }
   body {
