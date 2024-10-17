@@ -12,7 +12,7 @@ export default function Approch() {
             </h1>
             <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
                 <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1" />}
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt optio molestiae aliquam, qui aspernatur neque dolore veniam et recusandae?"
+                description="I begin by thoroughly understanding the client's requirements and crafting a detailed plan to ensure the website is developed in the best possible way."
                 >
                    
                     <CanvasRevealEffect
@@ -22,7 +22,7 @@ export default function Approch() {
                 </Card>
                 <Card title="Development & Progress Update" 
                 icon={<AceternityIcon order="Phase 2" />}
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt optio molestiae aliquam, qui aspernatur neque dolore veniam et recusandae?"
+                description="I build the website according to the client's requirements and maintain a feedback loop, ensuring client input is gathered after every major change."
                 >
                     <CanvasRevealEffect
                         animationSpeed={3}
@@ -36,7 +36,7 @@ export default function Approch() {
                    
                 </Card>
                 <Card title="Developement & Launch" icon={<AceternityIcon order="Phase 3" />}
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt optio molestiae aliquam, qui aspernatur neque dolore veniam et recusandae?"
+                description="After completing the development and ensuring the client is fully satisfied, I deploy and host the website on services like GoDaddy, Cloudflare, or AWS, launching it successfully."
                 >
                     <CanvasRevealEffect
                         animationSpeed={3}

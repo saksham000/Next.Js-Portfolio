@@ -73,94 +73,103 @@ export const projects = [
   {
     id: 1,
     title: "A Traveling Agency Website",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "I developed a professional website for a travel agency as part of a paid project, delivering a user-friendly platform.",
     img: "/p1.png",
     iconLists: ["/re.svg", "/sass.svg", "/godaddy.svg", "/cloudflare.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://shrihariomyatra.in",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "School Management and Live Teaching System",
+    des: "Created a fully functional website for a live teaching and school management system, In React and Spring Boot.",
     img: "/p3.png",
-    iconLists: ["/spring-boot.svg", "/re.svg", "/tail.svg", "/docker.svg","aws.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: [
+      "/spring-boot.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/docker.svg",
+      "aws.svg",
+    ],
+    link: "https://github.com/saksham000/Online-School-Backend",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Online Movie Ticket Booking System",
+    des: "Built a ticket booking and management system using React and Spring Boot, deployed on AWS.",
     img: "/p2.png",
-    iconLists: ["/spring-boot.svg", "/re.svg", "/bootstrap.svg", "/docker.svg", "/aws.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: [
+      "/spring-boot.svg",
+      "/re.svg",
+      "/bootstrap.svg",
+      "/docker.svg",
+      "/aws.svg",
+    ],
+    link: "https://github.com/saksham000/Ticket-Booking-System-Backend",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Developing a LMS Website.",
+    des: "Currently developing an LMS website with industry standards as part of a 7-member team. As a Backend Dev.",
     img: "/p4.png",
-    iconLists: ["/next.svg", "/re.svg", "/spring-boot.svg", "/tail.svg", "/figma.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/spring-boot.svg",
+      "/tail.svg",
+      "/figma.svg",
+    ],
+    link: "https://github.com/swapnilxi/LMS-Learn",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Saksham Sharma to create a website for my travel agency, and I couldn’t be happier with the outcome. Saksham crafted a site that not only looks stunning but is also incredibly functional and easy for my clients to navigate. It beautifully showcases our travel packages and services while ensuring a smooth booking process. Their professionalism, creativity, and deep understanding of what our business needed made the entire experience seamless. I highly recommend Saksham for anyone looking to build a high-quality website!",
+    name: "Akshat Goel",
+    title: "Client",
+    img: "/c3.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Saksham Sharma on my video editing website was a fantastic experience. They perfectly understood the creative vision I wanted to present and translated it into a sleek, professional, and user-friendly website. The site showcases my video projects in a way that highlights my skills and attracts potential clients. Saksham's expertise, attention to detail, and ability to deliver on time were truly impressive. I’m extremely happy with the final result and would highly recommend them to anyone looking for top-notch web development services.",
+    name: "Naman Joshi",
+    title: "Video Editor",
+    img: "c2.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Saksham Sharma on my website, and I couldn’t be more satisfied with the results. The site not only reflects my professional journey perfectly but is also easy to navigate and visually appealing. Saksham demonstrated excellent web development skills, always maintaining clear communication throughout the process. Their attention to detail and ability to deliver exactly what I envisioned was outstanding. I would highly recommend them to anyone looking for a skilled and reliable web developer.",
+    name: "Shagun Singhal",
+    title: "Freelancer",
+    img: "c1.png",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Spring Boot",
+    img: "/spring-boot.svg",
+    nameImg: "/spring-boot-text.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/re.svg",
+    nameImg: "/react-text.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "/jenkins.svg",
+    nameImg: "/jenkins-text.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/aws.svg",
+    nameImg: "/aws-text.svg",
   },
   {
     id: 5,
@@ -173,29 +182,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Developer",
+    desc: "I am developing the backend for an LMS system using Spring Boot, collaborating with top industry professionals.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance Project",
+    desc: "I developed a website for a travel agency based in Haridwar using React as part of a paid project.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "KAVACH 2023 Finalist",
+    desc: "I competed in an India-level cybersecurity hackathon, where I was selected for the finals and successfully decrypted the WeChat app to extract chats.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Open Source Contribution",
+    desc: "I contributed to the open-source Spring Boot project called Feedback-Hub, developing several APIs and optimizing the REST APIs.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +214,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/saksham000",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/saksham00/",
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+    link: "/",
   },
 ];
