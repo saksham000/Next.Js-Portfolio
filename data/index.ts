@@ -224,6 +224,6 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link: "/",
+    link: "https://www.x.com",
   },
 ];
